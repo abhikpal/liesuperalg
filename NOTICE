@@ -14,24 +14,3 @@
 # You should have received a copy of the GNU General Public License along with
 # liesuperalg. If not, see <https://www.gnu.org/licenses/>.
 
-from .character import length
-from .character import gen_KL
-from .character import mult_kac_in_irrd
-from .character import phi
-from .character import phi_inv
-
-from .convertors import parts_to_weight
-from .convertors import str_to_weight
-from .convertors import typ_atyp_to_weight
-from .convertors import height_to_atyp
-
-from .composition import kac_composition_factors
-
-from .diagram import cup_diagram
-
-from .grothendieck import decompose
-
-from .weight import Weight
-from .weight import rho
-from .weight import one
-
